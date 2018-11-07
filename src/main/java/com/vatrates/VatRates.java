@@ -35,7 +35,7 @@ public class VatRates {
      * Sorts the JSONArray by the provided key
      * @param vatRatesArray
      * @param key
-     * @return
+     * @return JSONArray
      */
     public JSONArray sortVatRatesByKey(JSONArray vatRatesArray, final String key){
         JSONArray vatRatesArraySorted = new JSONArray();
